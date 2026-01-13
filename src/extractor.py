@@ -27,7 +27,6 @@ QUERIES = {
 
 def fetch_browser_data(browser_path: str, data: str, queries: dict=QUERIES) -> list[tuple[str]]:
     """Returns specific data from browser's config DBs"""
-
     if data not in queries:
         raise ValueError(f"Unknown data type: {data}")
     

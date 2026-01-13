@@ -16,7 +16,6 @@ def remove_padding_bytes(decrypted: bytes, block_size: int = 16) -> bytes:
 
 def decrypt_secret(secret: str, keyring_secret=None) -> bytes:
     """Decrypts AES-CBC ciphers"""
-
     if keyring_secret == None:
         key = PBKDF2(HARDCODED_PASS, SALT, BLOCK_LENGTH, ITERATIONS)
     else:
