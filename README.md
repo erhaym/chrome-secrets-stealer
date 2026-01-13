@@ -2,7 +2,7 @@
 
 This project is an **educational tool** designed to study how **Chromium-based browsers** store and protect local user data on **Linux systems**.
 
-> **Disclaimer**
+**Disclaimer**
 > This tool is intended for **academic and non-malicious purposes only**.
 > Use it **only on systems you own or have explicit permission to do such things**.
 
