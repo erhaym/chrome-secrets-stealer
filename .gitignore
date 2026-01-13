@@ -1,0 +1,12 @@
+# python
+__pycache__/
+*.pyc
+venv/
+
+# output folder
+output/
+
+# txt, json, csv files
+*.txt
+*.json
+*.csv
