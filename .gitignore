@@ -10,3 +10,6 @@ output/
 *.txt
 *.json
 *.csv
+
+# exception for requirements file
+!requirements.txt
