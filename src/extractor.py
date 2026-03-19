@@ -10,7 +10,7 @@ QUERIES = {
     },
     "cookies": {
         "db": "Default/Cookies",
-        "query": """...""",
+        "query": """SELECT host_key, name, hex(encrypted_value), expires_utc FROM cookies;""",
         "encrypted": True
     },
     "autofill": {

@@ -97,11 +97,14 @@ if choice == 0: # Logins
         elif bytes.fromhex(passw[:2*3]) == b"v10":
             print(f"{MAGENTA}Password:{RESET} {RED}{censor_string(decrypt_secret(passw).decode('utf-8'))}{RESET}")
         print("-" * 40)
+elif choice == 1: # Cookie
+	pass
+elif choice == 2: # Autofill
+	pass
 elif choice == 3: # History
     print(f"\n[+] Found {len(browser_secrets)} history entries:\n")
     print("-" * 40)
     for url, in browser_secrets:
         print(f"{MAGENTA}URL:{RESET} {url}")
         print("-" * 40)
-else:
-    print("\n[+] Not implemented yet")
+
